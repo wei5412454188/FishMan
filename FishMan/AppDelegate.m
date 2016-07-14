@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "FMLoginViewController.h"
+#import "FMRegisterViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -21,6 +22,7 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
+    FMRegisterViewController *registerVC = [[FMRegisterViewController alloc]init];
     FMLoginViewController *loginVC = [[FMLoginViewController alloc]init];
     self.window.rootViewController = loginVC;
     return YES;

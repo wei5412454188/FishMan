@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F30672651D37B53900A76924 /* FMRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F30672641D37B53900A76924 /* FMRegisterViewController.m */; };
+		F30672681D37B5CA00A76924 /* FMMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F30672671D37B5CA00A76924 /* FMMainViewController.m */; };
 		F35770EF1D365F8A00141619 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F35770EE1D365F8A00141619 /* main.m */; };
 		F35770F21D365F8A00141619 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F35770F11D365F8A00141619 /* AppDelegate.m */; };
 		F35770F81D365F8A00141619 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F35770F61D365F8A00141619 /* Main.storyboard */; };
@@ -18,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F30672631D37B53900A76924 /* FMRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMRegisterViewController.h; sourceTree = "<group>"; };
+		F30672641D37B53900A76924 /* FMRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMRegisterViewController.m; sourceTree = "<group>"; };
+		F30672661D37B5CA00A76924 /* FMMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMMainViewController.h; sourceTree = "<group>"; };
+		F30672671D37B5CA00A76924 /* FMMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMMainViewController.m; sourceTree = "<group>"; };
 		F35770EA1D365F8A00141619 /* FishMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FishMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F35770EE1D365F8A00141619 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F35770F01D365F8A00141619 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -144,6 +150,8 @@
 		F357710A1D36606700141619 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				F30672661D37B5CA00A76924 /* FMMainViewController.h */,
+				F30672671D37B5CA00A76924 /* FMMainViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -218,6 +226,8 @@
 		F357711C1D36808B00141619 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				F30672631D37B53900A76924 /* FMRegisterViewController.h */,
+				F30672641D37B53900A76924 /* FMRegisterViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -332,6 +342,8 @@
 				F35770F21D365F8A00141619 /* AppDelegate.m in Sources */,
 				F35771121D36633900141619 /* FMRootNavigationController.m in Sources */,
 				F35771181D36673300141619 /* FMLoginViewController.m in Sources */,
+				F30672651D37B53900A76924 /* FMRegisterViewController.m in Sources */,
+				F30672681D37B5CA00A76924 /* FMMainViewController.m in Sources */,
 				F35770EF1D365F8A00141619 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -481,6 +493,7 @@
 				F35771031D365F8A00141619 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
